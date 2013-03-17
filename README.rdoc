@@ -1,3 +1,3 @@
 == Disc Golf Tracker
 
-A rails app written to help players keep track of the courses they've played organised by region. Future development may include score tracking.
+A rails app written to help players keep track of the courses they've played organized by region. Future development may include score tracking.
