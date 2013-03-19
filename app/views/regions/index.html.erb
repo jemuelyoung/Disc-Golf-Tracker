@@ -14,8 +14,8 @@
   <tr>
     <td><%= region.name %></td>
     <td><%= region.location %></td>
-    <td><%= button_to 'Show', region %></td>
-    <td><%= button_to 'Edit', edit_region_path(region) %></td>
+    <td><%= button_to 'Show', region, :method => :get %></td>
+    <td><%= button_to 'Edit', edit_region_path(region), :method => :get %></td>
     <td><%= button_to 'Destroy', region, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
