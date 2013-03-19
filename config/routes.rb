@@ -1,12 +1,9 @@
 TestApp::Application.routes.draw do
   
-  resources :courses
-
-
-  root :controller => "regions", :action => "index"  
+  root :controller => "pages", :action => "index"  
+  resources :courses  
   
   resources :users
-  match 'users/:id/add_course' => 'users#add_course'
   match 'users/:id/add_course:id' => 'users#add_course', :action => "add_new_course"  
   resources :regions
   

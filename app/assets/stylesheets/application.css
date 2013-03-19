@@ -1,3 +1,12 @@
+input[type="submit"]{
+	border: 1px solid blue;
+	vertical-align: bottom;
+}
+input[type="submit"]:hover{
+	background-color: #990066;
+	color: #eee;
+}
+
 .index_table td, .index_table th {
 	padding: 6px;
 }
@@ -26,3 +35,15 @@ div.top-title {
 	top: 10px;
 	color: #FBB117;
 }
+.table_show tr > td {
+	padding: 5px;	
+}
+.table_show tr > td span {
+	float: right;
+	font-weight: bold;
+}
+
+.main_img {
+	background-image: url('Disc-Golf-DSCN0859.jpg');
+	height: 400px;
+} 

@@ -1,15 +1,15 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Name:</b>
-  <%= @region.name %>
-</p>
-
-<p>
-  <b>Location:</b>
-  <%= @region.location %>
-</p>
-
+<table class="table_show">
+	<tr>
+		<td><span>Name:</span></td>
+		<td><%= @region.name %></td>
+	<tr>
+	<tr>
+		<td><span>Location:</span></td>
+		<td><%= @region.location %></td>
+	<tr>
+</table>
 
 <%= link_to 'Edit', edit_region_path(@region) %> |
 <%= link_to 'Back', regions_path %>
